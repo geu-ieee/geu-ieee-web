@@ -54,7 +54,7 @@ const Navbar = () => {
         className={
           !nav
             ? "fixed left-[-100%]"
-            : "fixed top-0 left-0 w-[60%] h-full bg-black text-[#fff] ease-in-out duration-500"
+            : "fixed z-10 top-0 left-0 w-[60%] h-full bg-black text-[#fff] ease-in-out duration-500"
         }
       >
         <div className="mt-16 flex flex-col justify-start  items-center">
